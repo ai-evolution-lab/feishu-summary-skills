@@ -80,7 +80,7 @@ feishu-summary-skills/
 ### 第 1 步:克隆并安装 skill
 
 ```bash
-git clone <你的仓库地址>  && cd feishu-summary-skills
+git clone https://github.com/ai-evolution-lab/feishu-summary-skills.git && cd feishu-summary-skills
 ./install.sh                     # 默认装到 opencode: ~/.config/opencode/skills
 ./install.sh --all               # 同时装 claude/codex/agents
 ```
@@ -155,7 +155,7 @@ notepad "$env:USERPROFILE\.config\feishu-skills\config.json"
   "chat_id": "oc_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",  // 必填。接收文档链接的飞书群 ID(oc_ 开头)
   "chat_name": "我的文档接收群",                        // 可选。群名,仅供人读,不会按名字去解析
   "sender_identity": "bot",                             // 发送消息身份: bot(推荐,用应用机器人) | user(用你自己)
-  "profile": "feishu-opencode",                         // 可选。lark-cli 的 profile 名;不填则用当前默认
+  "profile": "my-feishu-profile",                        // 可选。lark-cli 的 profile 名;不填则用当前默认
   "lark_cli_path": "",                                  // 可选。lark-cli 不在 PATH 时手动指定,如 Windows
                                                         //   示例: "C:\\Users\\你的名字\\AppData\\Roaming\\npm\\lark-cli.cmd"
   "message_format": "link"                              // 群消息内容: link(只发标题+链接) | link_with_excerpt(附2-3句摘要)
