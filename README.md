@@ -1,3 +1,5 @@
+> ⚠️ **本仓库已并入 [ai-evolution-lab/agent-skills](https://github.com/ai-evolution-lab/agent-skills)** —— 所有 skill 的最新版本、跨设备(Windows/macOS)一键安装/更新都在新仓库维护，此处不再单独更新。
+
 # feishu-summary-skills
 
 > 把任意内容(网页、PDF、音视频、播客、本地文件)**详细总结 → 自动做成飞书文档 → 把链接发到你的飞书群**。三个可独立、可组合的 Agent Skills,支持 opencode / Claude Code / Codex / Cursor 等客户端。
